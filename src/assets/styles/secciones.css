@@ -1,0 +1,14 @@
+.Secciones{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	justify-content: space-between;
+}
+
+.SI{
+	width: 30%;
+}
+
+.SF{
+	width: 70%;
+}
