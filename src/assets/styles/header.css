@@ -2,10 +2,32 @@ header{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
-	padding-top: 5px;
+	justify-content: space-between;
+	padding: 20px;
 	height: 50px;
-	width: 30%;
-	background: linear-gradient(rgba(47, 48, 51, 0.6),rgba(47, 48, 51, 0.6));
+	width: 97.8%;
+	background-color: #dce0e6;
+	font-size: 30px;
+
+	
+}
+
+.botones{
+	display: flex;
+	flex-direction: row;	
+}
+
+.boton1{
+	padding-right: 15px;
+	
+}
+
+.redondo{
+	width: 200px;
+	height: 40px;
+	border-radius: 15px;
+	background-color: #2b4c7e;
+	color: #dce0e6;
+	font-size: 20px;
 }
 

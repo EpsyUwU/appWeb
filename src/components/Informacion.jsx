@@ -1,24 +1,27 @@
-import CardInfo from "../components/CardInformacion"
+import CardInfo from "./CardInformacion"
 
 function informacion (){
 
 	const infoPag = [
 		{
-		informacion:"1.- Registrate"
+		informacion:"Una experiencia fresca a la hora de administrar"
 		},
 		{
-		informacion:"2.- ¡¡Entra con tu nueva cuenta!!"
+		informacion:"tus ventas, agentes y mucho mas"
 		},
 		{
-		informacion:"3.- Disfruta de todos los beneficios que te da Respuesta Facilita"
+		informacion:"Real state es una aplicacion dedicada a la venta de vienes raices, para tener una mejor gestion de todo",
 		},
+		{
+		butt:<button className="b1">Ingresa a Real State</button>
+		}
 	];
 	
 
 	return(
 		<div className="Informacion">
 		{infoPag.map((info)=>{
-			return<CardInfo texto={info.informacion}/>;
+			return<CardInfo texto={info.informacion} boton={info.butt}/>;
 		})}
 		</div>
 	)
